@@ -1,5 +1,5 @@
 To init the db 
-`docker-compose run`
+`docker-compose up`
 
 
 `docker cp ./db.sql entity_graph:/docker-entrypoint-initdb.d/dump.sql`
